@@ -14,12 +14,12 @@
 		18627C8629052BE000BD2A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18627C8529052BE000BD2A04 /* Assets.xcassets */; };
 		18627C8929052BE000BD2A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18627C8729052BE000BD2A04 /* LaunchScreen.storyboard */; };
 		18627C8C29052BE000BD2A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18627C8B29052BE000BD2A04 /* main.m */; };
-		18627C9B29052CFF00BD2A04 /* ggml-base.en.bin in Resources */ = {isa = PBXBuildFile; fileRef = 18627C9A29052CFF00BD2A04 /* ggml-base.en.bin */; };
 		7FE3424B2A0C3FA20015A058 /* whisper-encoder-impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE342452A0C3FA20015A058 /* whisper-encoder-impl.m */; };
 		7FE3424C2A0C3FA20015A058 /* whisper-encoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FE342472A0C3FA20015A058 /* whisper-encoder.mm */; };
-		7FE3424F2A0C418A0015A058 /* ggml-base.en-encoder.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 7FE3424E2A0C418A0015A058 /* ggml-base.en-encoder.mlmodelc */; };
 		DDE3609F2D87EA8C004EA223 /* whisper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE3609E2D87EA8C004EA223 /* whisper.xcframework */; };
 		DDE360A02D87EA8C004EA223 /* whisper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDE3609E2D87EA8C004EA223 /* whisper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC9F14B52D96CFC800C91EE5 /* ggml-small.bin in Resources */ = {isa = PBXBuildFile; fileRef = EC9F14B32D96CFC800C91EE5 /* ggml-small.bin */; };
+		EC9F14B62D96CFC800C91EE5 /* ggml-small-encoder.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = EC9F14B42D96CFC800C91EE5 /* ggml-small-encoder.mlmodelc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,15 +59,15 @@
 		18627C8829052BE000BD2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18627C8A29052BE000BD2A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18627C8B29052BE000BD2A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18627C9A29052CFF00BD2A04 /* ggml-base.en.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "ggml-base.en.bin"; path = "../../../models/ggml-base.en.bin"; sourceTree = "<group>"; };
 		7FE342452A0C3FA20015A058 /* whisper-encoder-impl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "whisper-encoder-impl.m"; sourceTree = "<group>"; };
 		7FE342462A0C3FA20015A058 /* whisper-encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "whisper-encoder.h"; sourceTree = "<group>"; };
 		7FE342472A0C3FA20015A058 /* whisper-encoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "whisper-encoder.mm"; sourceTree = "<group>"; };
 		7FE342482A0C3FA20015A058 /* whisper-decoder-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "whisper-decoder-impl.h"; sourceTree = "<group>"; };
 		7FE342492A0C3FA20015A058 /* whisper-encoder-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "whisper-encoder-impl.h"; sourceTree = "<group>"; };
 		7FE3424A2A0C3FA20015A058 /* whisper-decoder-impl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "whisper-decoder-impl.m"; sourceTree = "<group>"; };
-		7FE3424E2A0C418A0015A058 /* ggml-base.en-encoder.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ggml-base.en-encoder.mlmodelc"; path = "../../../models/ggml-base.en-encoder.mlmodelc"; sourceTree = "<group>"; };
 		DDE3609E2D87EA8C004EA223 /* whisper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = whisper.xcframework; path = "../../build-apple/whisper.xcframework"; sourceTree = "<group>"; };
+		EC9F14B32D96CFC800C91EE5 /* ggml-small.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "ggml-small.bin"; path = "/Users/l07k3/Desktop/WorkSpace/Projects/yiYan/whisper.cpp/models/ggml-small.bin"; sourceTree = "<absolute>"; };
+		EC9F14B42D96CFC800C91EE5 /* ggml-small-encoder.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ggml-small-encoder.mlmodelc"; path = "/Users/l07k3/Desktop/WorkSpace/Projects/yiYan/whisper.cpp/models/ggml-small-encoder.mlmodelc"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,9 @@
 		18627C7829052BDF00BD2A04 /* whisper.objc */ = {
 			isa = PBXGroup;
 			children = (
-				7FE3424E2A0C418A0015A058 /* ggml-base.en-encoder.mlmodelc */,
 				7FE342442A0C3FA20015A058 /* coreml */,
-				18627C9A29052CFF00BD2A04 /* ggml-base.en.bin */,
+				EC9F14B32D96CFC800C91EE5 /* ggml-small.bin */,
+				EC9F14B42D96CFC800C91EE5 /* ggml-small-encoder.mlmodelc */,
 				18627C7929052BDF00BD2A04 /* AppDelegate.h */,
 				18627C7A29052BDF00BD2A04 /* AppDelegate.m */,
 				18627C7C29052BDF00BD2A04 /* SceneDelegate.h */,
@@ -202,10 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18627C8929052BE000BD2A04 /* LaunchScreen.storyboard in Resources */,
-				7FE3424F2A0C418A0015A058 /* ggml-base.en-encoder.mlmodelc in Resources */,
+				EC9F14B52D96CFC800C91EE5 /* ggml-small.bin in Resources */,
+				EC9F14B62D96CFC800C91EE5 /* ggml-small-encoder.mlmodelc in Resources */,
 				18627C8629052BE000BD2A04 /* Assets.xcassets in Resources */,
 				18627C8429052BDF00BD2A04 /* Main.storyboard in Resources */,
-				18627C9B29052CFF00BD2A04 /* ggml-base.en.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +373,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8JZH34X63;
+				DEVELOPMENT_TEAM = 5RZBAHKSUH;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = whisper.objc/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access in order to transcribe speech";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -390,7 +391,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_HEADER_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DGGML_USE_CPU=ON";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggerganov.whisper-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3l0t.whisper-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,11 +407,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P8JZH34X63;
+				DEVELOPMENT_TEAM = 5RZBAHKSUH;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = whisper.objc/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access in order to transcribe speech";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -423,7 +425,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_HEADER_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DGGML_USE_CPU=ON";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggerganov.whisper-objc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k3l0t.whisper-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
